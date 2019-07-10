@@ -22,14 +22,14 @@ class InvoicesServices{
         let products1:[Product] = [
             Product(name: "reloj", price: 1000, type: .electronic),
             Product(name: "hamburguesa", price: 1000, type: .food),
-            Product(name: "martillo", price: 1000, type: .tools),
+            Product(name: "martillo", price: 1000, type: .tool),
             Product(name: "pc", price: 1000, type: .electronic),
-            Product(name: "destornillador", price: 1000, type: .tools)
+            Product(name: "destornillador", price: 1000, type: .tool)
         ]
         
         let products2:[Product] = [
             Product(name: "TV", price: 2345, type: .electronic),
-            Product(name: "navaja", price: 12334500,type:.tools),
+            Product(name: "navaja", price: 12334500,type:.tool),
         ]
 
         

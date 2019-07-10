@@ -36,9 +36,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         tabBarController.selectedIndex = 1
         
-        
-
-//
         self.window?.makeKeyAndVisible()
         self.window?.rootViewController = tabBarController
         return true

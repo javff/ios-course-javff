@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		A803811822D3CEAD00826A88 /* InvoicesServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = A803811722D3CEAD00826A88 /* InvoicesServices.swift */; };
 		A8101D6622CBDB31002744C2 /* MyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8101D6522CBDB31002744C2 /* MyCell.swift */; };
+		A84846B622D6674B00BB50C1 /* ToolCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A84846B522D6674B00BB50C1 /* ToolCell.xib */; };
+		A84846B822D66A1E00BB50C1 /* ToolCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84846B722D66A1E00BB50C1 /* ToolCell.swift */; };
+		A84846BA22D66A7D00BB50C1 /* FoodCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A84846B922D66A7D00BB50C1 /* FoodCell.xib */; };
+		A84846BC22D66B6600BB50C1 /* FoodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84846BB22D66B6600BB50C1 /* FoodCell.swift */; };
+		A84846BE22D66B9A00BB50C1 /* ElectronicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A84846BD22D66B9A00BB50C1 /* ElectronicCell.xib */; };
+		A84846C022D66BC800BB50C1 /* ElectronicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84846BF22D66BC800BB50C1 /* ElectronicCell.swift */; };
 		A89AF12D22CCC513004FA35B /* MyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A89AF12C22CCC513004FA35B /* MyCell.xib */; };
 		A89AF12F22CCC606004FA35B /* TableViewExample1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89AF12E22CCC606004FA35B /* TableViewExample1.swift */; };
 		A89AF13722CCC6BD004FA35B /* Invoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89AF13622CCC6BD004FA35B /* Invoice.swift */; };
@@ -26,6 +32,12 @@
 /* Begin PBXFileReference section */
 		A803811722D3CEAD00826A88 /* InvoicesServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvoicesServices.swift; sourceTree = "<group>"; };
 		A8101D6522CBDB31002744C2 /* MyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCell.swift; sourceTree = "<group>"; };
+		A84846B522D6674B00BB50C1 /* ToolCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ToolCell.xib; sourceTree = "<group>"; };
+		A84846B722D66A1E00BB50C1 /* ToolCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolCell.swift; sourceTree = "<group>"; };
+		A84846B922D66A7D00BB50C1 /* FoodCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FoodCell.xib; sourceTree = "<group>"; };
+		A84846BB22D66B6600BB50C1 /* FoodCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCell.swift; sourceTree = "<group>"; };
+		A84846BD22D66B9A00BB50C1 /* ElectronicCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ElectronicCell.xib; sourceTree = "<group>"; };
+		A84846BF22D66BC800BB50C1 /* ElectronicCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectronicCell.swift; sourceTree = "<group>"; };
 		A89AF12C22CCC513004FA35B /* MyCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCell.xib; sourceTree = "<group>"; };
 		A89AF12E22CCC606004FA35B /* TableViewExample1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewExample1.swift; sourceTree = "<group>"; };
 		A89AF13622CCC6BD004FA35B /* Invoice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Invoice.swift; sourceTree = "<group>"; };
@@ -53,6 +65,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A84846B122D666A700BB50C1 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A84846B422D666D000BB50C1 /* ToolCell */,
+				A84846B322D666CB00BB50C1 /* FoodCell */,
+				A84846B222D666C100BB50C1 /* ElectronicCell */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		A84846B222D666C100BB50C1 /* ElectronicCell */ = {
+			isa = PBXGroup;
+			children = (
+				A84846BD22D66B9A00BB50C1 /* ElectronicCell.xib */,
+				A84846BF22D66BC800BB50C1 /* ElectronicCell.swift */,
+			);
+			path = ElectronicCell;
+			sourceTree = "<group>";
+		};
+		A84846B322D666CB00BB50C1 /* FoodCell */ = {
+			isa = PBXGroup;
+			children = (
+				A84846B922D66A7D00BB50C1 /* FoodCell.xib */,
+				A84846BB22D66B6600BB50C1 /* FoodCell.swift */,
+			);
+			path = FoodCell;
+			sourceTree = "<group>";
+		};
+		A84846B422D666D000BB50C1 /* ToolCell */ = {
+			isa = PBXGroup;
+			children = (
+				A84846B522D6674B00BB50C1 /* ToolCell.xib */,
+				A84846B722D66A1E00BB50C1 /* ToolCell.swift */,
+			);
+			path = ToolCell;
+			sourceTree = "<group>";
+		};
 		A89AF13022CCC60A004FA35B /* TableViewExample1 */ = {
 			isa = PBXGroup;
 			children = (
@@ -66,6 +115,7 @@
 		A89AF13122CCC637004FA35B /* TableViewExample2 */ = {
 			isa = PBXGroup;
 			children = (
+				A84846B122D666A700BB50C1 /* Cells */,
 				A89AF13822CCC796004FA35B /* Controllers */,
 				A89AF13522CCC6B3004FA35B /* Models */,
 			);
@@ -205,8 +255,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A84846B622D6674B00BB50C1 /* ToolCell.xib in Resources */,
 				A8C9A7BC22CA87AC00205AA3 /* LaunchScreen.storyboard in Resources */,
+				A84846BE22D66B9A00BB50C1 /* ElectronicCell.xib in Resources */,
 				A89AF12D22CCC513004FA35B /* MyCell.xib in Resources */,
+				A84846BA22D66A7D00BB50C1 /* FoodCell.xib in Resources */,
 				A8C9A7B922CA87AC00205AA3 /* Assets.xcassets in Resources */,
 				A8C9A7B722CA87AB00205AA3 /* Main.storyboard in Resources */,
 			);
@@ -220,13 +273,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8C9A7B422CA87AB00205AA3 /* ViewController.swift in Sources */,
+				A84846BC22D66B6600BB50C1 /* FoodCell.swift in Sources */,
 				A89AF12F22CCC606004FA35B /* TableViewExample1.swift in Sources */,
+				A84846C022D66BC800BB50C1 /* ElectronicCell.swift in Sources */,
 				A8C9A7C822CA933800205AA3 /* BaseViewController.swift in Sources */,
 				A89AF13A22CCC7AD004FA35B /* InvoicesViewController.swift in Sources */,
 				A8C9A7C622CA897100205AA3 /* Cars.swift in Sources */,
 				A8101D6622CBDB31002744C2 /* MyCell.swift in Sources */,
 				A8C9A7B222CA87AB00205AA3 /* AppDelegate.swift in Sources */,
 				A803811822D3CEAD00826A88 /* InvoicesServices.swift in Sources */,
+				A84846B822D66A1E00BB50C1 /* ToolCell.swift in Sources */,
 				A89AF13722CCC6BD004FA35B /* Invoice.swift in Sources */,
 				A8C9A7CA22CA954800205AA3 /* Example.swift in Sources */,
 			);

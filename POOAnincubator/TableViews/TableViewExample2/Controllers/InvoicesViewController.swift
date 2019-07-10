@@ -12,9 +12,12 @@ class InvoicesViewController: BaseViewController {
 
     //MARK: - UI Vars
     let tableView: UITableView = UITableView(frame: .zero, style: .plain)
+    
+    let activityIndicator: UIActivityIndicatorView = UIActivityIndicatorView(style: .gray)
 
     //MARK: - Vars
     let reuseIdentifier = "MyCell"
+    
     var invoices:[Invoice] = []
     
     //MARK: - life cycle
@@ -30,25 +33,41 @@ class InvoicesViewController: BaseViewController {
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         tableView.frame = view.bounds
+        activityIndicator.center = tableView.center
     }
     
     private func setupCell(){
+        
         let nib = UINib(nibName: reuseIdentifier, bundle: nil)
         tableView.register(nib, forCellReuseIdentifier: reuseIdentifier)
+        
+        // registramos todo //
+        
+        for type in ProductType.allCases{
+            let identifier =  type.getReuseIdentifier()
+            let nib = UINib(nibName: identifier, bundle: nil)
+            tableView.register(nib, forCellReuseIdentifier: identifier)
+        }
     }
     
     override func setupView() {
         super.setupView()
         
         view.addSubview(tableView)
+        view.addSubview(activityIndicator)
         tableView.tableFooterView = UIView()
         self.view.backgroundColor = .blue
+        activityIndicator.hidesWhenStopped = true
         self.navigationItem.title = "InvoicesViewController"
     }
     
     private func connectWithServices(){
         
+        self.activityIndicator.startAnimating()
+        
         InvoicesServices.getInvoices { (result) in
+            
+            self.activityIndicator.stopAnimating()
             
             switch result{
                 
@@ -82,10 +101,14 @@ extension InvoicesViewController: UITableViewDataSource, UITableViewDelegate{
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        let cell = tableView.dequeueReusableCell(withIdentifier: reuseIdentifier) as! MyCell
         let product = invoices[indexPath.section].products[indexPath.row]
-        cell.myLabel.text = "\(product.name) \(product.price)$"
-        return cell
+        return product.type.cellForPRoductType(in: tableView, with: product)
+    }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        
+        let product = invoices[indexPath.section].products[indexPath.row]
+        return product.type.heightForCell(in: tableView, with: product)
     }
     
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
@@ -94,5 +117,4 @@ extension InvoicesViewController: UITableViewDataSource, UITableViewDelegate{
         return "Codigo de invoices: \(invoice.code)"
         
     }
-
 }
