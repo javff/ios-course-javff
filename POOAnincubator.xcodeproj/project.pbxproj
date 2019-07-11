@@ -15,6 +15,19 @@
 		A84846BC22D66B6600BB50C1 /* FoodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84846BB22D66B6600BB50C1 /* FoodCell.swift */; };
 		A84846BE22D66B9A00BB50C1 /* ElectronicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A84846BD22D66B9A00BB50C1 /* ElectronicCell.xib */; };
 		A84846C022D66BC800BB50C1 /* ElectronicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84846BF22D66BC800BB50C1 /* ElectronicCell.swift */; };
+		A8551A5022D7AF1000FED0B3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8551A4F22D7AF1000FED0B3 /* HomeViewController.swift */; };
+		A8551A5422D7AF2B00FED0B3 /* HomeView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8551A5322D7AF2B00FED0B3 /* HomeView.storyboard */; };
+		A8551A5722D7B16900FED0B3 /* Offer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8551A5622D7B16900FED0B3 /* Offer.swift */; };
+		A8551A5A22D7B1D800FED0B3 /* OfferCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8551A5922D7B1D800FED0B3 /* OfferCell.xib */; };
+		A8551A5C22D7B23500FED0B3 /* OfferCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8551A5B22D7B23500FED0B3 /* OfferCell.swift */; };
+		A8551A6022D7B6D200FED0B3 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8551A5F22D7B6D200FED0B3 /* MenuViewController.swift */; };
+		A8551A6322D7B82500FED0B3 /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8551A6222D7B82500FED0B3 /* Day.swift */; };
+		A8551A6522D7B83D00FED0B3 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8551A6422D7B83D00FED0B3 /* Note.swift */; };
+		A8551A6822D7B9F400FED0B3 /* DayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8551A6722D7B9F400FED0B3 /* DayCell.swift */; };
+		A8551A6B22D7BDFE00FED0B3 /* NoteCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8551A6A22D7BDFE00FED0B3 /* NoteCell.xib */; };
+		A8551A6E22D7BE9100FED0B3 /* NoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8551A6D22D7BE9100FED0B3 /* NoteCell.swift */; };
+		A8551A7022D7C4BB00FED0B3 /* MenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8551A6F22D7C4BB00FED0B3 /* MenuCell.xib */; };
+		A8551A7322D7C51800FED0B3 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8551A7222D7C51800FED0B3 /* MenuCell.swift */; };
 		A89AF12D22CCC513004FA35B /* MyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A89AF12C22CCC513004FA35B /* MyCell.xib */; };
 		A89AF12F22CCC606004FA35B /* TableViewExample1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89AF12E22CCC606004FA35B /* TableViewExample1.swift */; };
 		A89AF13722CCC6BD004FA35B /* Invoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89AF13622CCC6BD004FA35B /* Invoice.swift */; };
@@ -38,6 +51,19 @@
 		A84846BB22D66B6600BB50C1 /* FoodCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCell.swift; sourceTree = "<group>"; };
 		A84846BD22D66B9A00BB50C1 /* ElectronicCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ElectronicCell.xib; sourceTree = "<group>"; };
 		A84846BF22D66BC800BB50C1 /* ElectronicCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectronicCell.swift; sourceTree = "<group>"; };
+		A8551A4F22D7AF1000FED0B3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A8551A5322D7AF2B00FED0B3 /* HomeView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeView.storyboard; sourceTree = "<group>"; };
+		A8551A5622D7B16900FED0B3 /* Offer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Offer.swift; sourceTree = "<group>"; };
+		A8551A5922D7B1D800FED0B3 /* OfferCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OfferCell.xib; sourceTree = "<group>"; };
+		A8551A5B22D7B23500FED0B3 /* OfferCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferCell.swift; sourceTree = "<group>"; };
+		A8551A5F22D7B6D200FED0B3 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		A8551A6222D7B82500FED0B3 /* Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
+		A8551A6422D7B83D00FED0B3 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		A8551A6722D7B9F400FED0B3 /* DayCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayCell.swift; sourceTree = "<group>"; };
+		A8551A6A22D7BDFE00FED0B3 /* NoteCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoteCell.xib; sourceTree = "<group>"; };
+		A8551A6D22D7BE9100FED0B3 /* NoteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCell.swift; sourceTree = "<group>"; };
+		A8551A6F22D7C4BB00FED0B3 /* MenuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuCell.xib; sourceTree = "<group>"; };
+		A8551A7222D7C51800FED0B3 /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
 		A89AF12C22CCC513004FA35B /* MyCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCell.xib; sourceTree = "<group>"; };
 		A89AF12E22CCC606004FA35B /* TableViewExample1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewExample1.swift; sourceTree = "<group>"; };
 		A89AF13622CCC6BD004FA35B /* Invoice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Invoice.swift; sourceTree = "<group>"; };
@@ -100,6 +126,114 @@
 				A84846B722D66A1E00BB50C1 /* ToolCell.swift */,
 			);
 			path = ToolCell;
+			sourceTree = "<group>";
+		};
+		A8551A4E22D7AED500FED0B3 /* CollectionViews */ = {
+			isa = PBXGroup;
+			children = (
+				A8551A5E22D7B6BD00FED0B3 /* Example2 */,
+				A8551A5D22D7B6B200FED0B3 /* Example1 */,
+			);
+			path = CollectionViews;
+			sourceTree = "<group>";
+		};
+		A8551A5122D7AF1700FED0B3 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				A8551A5822D7B1CD00FED0B3 /* OfferCell */,
+				A8551A5322D7AF2B00FED0B3 /* HomeView.storyboard */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		A8551A5222D7AF1D00FED0B3 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A8551A4F22D7AF1000FED0B3 /* HomeViewController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		A8551A5522D7B15D00FED0B3 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				A8551A5622D7B16900FED0B3 /* Offer.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		A8551A5822D7B1CD00FED0B3 /* OfferCell */ = {
+			isa = PBXGroup;
+			children = (
+				A8551A5922D7B1D800FED0B3 /* OfferCell.xib */,
+				A8551A5B22D7B23500FED0B3 /* OfferCell.swift */,
+			);
+			path = OfferCell;
+			sourceTree = "<group>";
+		};
+		A8551A5D22D7B6B200FED0B3 /* Example1 */ = {
+			isa = PBXGroup;
+			children = (
+				A8551A5522D7B15D00FED0B3 /* models */,
+				A8551A5222D7AF1D00FED0B3 /* controllers */,
+				A8551A5122D7AF1700FED0B3 /* views */,
+			);
+			path = Example1;
+			sourceTree = "<group>";
+		};
+		A8551A5E22D7B6BD00FED0B3 /* Example2 */ = {
+			isa = PBXGroup;
+			children = (
+				A8551A6622D7B9DF00FED0B3 /* views */,
+				A8551A6122D7B81300FED0B3 /* models */,
+				A8551A5F22D7B6D200FED0B3 /* MenuViewController.swift */,
+			);
+			path = Example2;
+			sourceTree = "<group>";
+		};
+		A8551A6122D7B81300FED0B3 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				A8551A6222D7B82500FED0B3 /* Day.swift */,
+				A8551A6422D7B83D00FED0B3 /* Note.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		A8551A6622D7B9DF00FED0B3 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				A8551A6922D7BDF100FED0B3 /* Cell */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		A8551A6922D7BDF100FED0B3 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A8551A7122D7C50D00FED0B3 /* MenuCell */,
+				A8551A6C22D7BE7D00FED0B3 /* NoteCell */,
+				A8551A6722D7B9F400FED0B3 /* DayCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		A8551A6C22D7BE7D00FED0B3 /* NoteCell */ = {
+			isa = PBXGroup;
+			children = (
+				A8551A6A22D7BDFE00FED0B3 /* NoteCell.xib */,
+				A8551A6D22D7BE9100FED0B3 /* NoteCell.swift */,
+			);
+			path = NoteCell;
+			sourceTree = "<group>";
+		};
+		A8551A7122D7C50D00FED0B3 /* MenuCell */ = {
+			isa = PBXGroup;
+			children = (
+				A8551A6F22D7C4BB00FED0B3 /* MenuCell.xib */,
+				A8551A7222D7C51800FED0B3 /* MenuCell.swift */,
+			);
+			path = MenuCell;
 			sourceTree = "<group>";
 		};
 		A89AF13022CCC60A004FA35B /* TableViewExample1 */ = {
@@ -183,6 +317,7 @@
 		A8C9A7B022CA87AB00205AA3 /* POOAnincubator */ = {
 			isa = PBXGroup;
 			children = (
+				A8551A4E22D7AED500FED0B3 /* CollectionViews */,
 				A89AF13422CCC66B004FA35B /* TableViews */,
 				A89AF13322CCC655004FA35B /* UIKitVarsExample */,
 				A89AF13222CCC640004FA35B /* POOExampleModels */,
@@ -257,10 +392,14 @@
 			files = (
 				A84846B622D6674B00BB50C1 /* ToolCell.xib in Resources */,
 				A8C9A7BC22CA87AC00205AA3 /* LaunchScreen.storyboard in Resources */,
+				A8551A5A22D7B1D800FED0B3 /* OfferCell.xib in Resources */,
 				A84846BE22D66B9A00BB50C1 /* ElectronicCell.xib in Resources */,
 				A89AF12D22CCC513004FA35B /* MyCell.xib in Resources */,
+				A8551A7022D7C4BB00FED0B3 /* MenuCell.xib in Resources */,
+				A8551A6B22D7BDFE00FED0B3 /* NoteCell.xib in Resources */,
 				A84846BA22D66A7D00BB50C1 /* FoodCell.xib in Resources */,
 				A8C9A7B922CA87AC00205AA3 /* Assets.xcassets in Resources */,
+				A8551A5422D7AF2B00FED0B3 /* HomeView.storyboard in Resources */,
 				A8C9A7B722CA87AB00205AA3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,14 +413,23 @@
 			files = (
 				A8C9A7B422CA87AB00205AA3 /* ViewController.swift in Sources */,
 				A84846BC22D66B6600BB50C1 /* FoodCell.swift in Sources */,
+				A8551A6822D7B9F400FED0B3 /* DayCell.swift in Sources */,
 				A89AF12F22CCC606004FA35B /* TableViewExample1.swift in Sources */,
 				A84846C022D66BC800BB50C1 /* ElectronicCell.swift in Sources */,
 				A8C9A7C822CA933800205AA3 /* BaseViewController.swift in Sources */,
+				A8551A5022D7AF1000FED0B3 /* HomeViewController.swift in Sources */,
 				A89AF13A22CCC7AD004FA35B /* InvoicesViewController.swift in Sources */,
 				A8C9A7C622CA897100205AA3 /* Cars.swift in Sources */,
 				A8101D6622CBDB31002744C2 /* MyCell.swift in Sources */,
+				A8551A5722D7B16900FED0B3 /* Offer.swift in Sources */,
 				A8C9A7B222CA87AB00205AA3 /* AppDelegate.swift in Sources */,
+				A8551A6E22D7BE9100FED0B3 /* NoteCell.swift in Sources */,
+				A8551A6522D7B83D00FED0B3 /* Note.swift in Sources */,
+				A8551A6022D7B6D200FED0B3 /* MenuViewController.swift in Sources */,
 				A803811822D3CEAD00826A88 /* InvoicesServices.swift in Sources */,
+				A8551A7322D7C51800FED0B3 /* MenuCell.swift in Sources */,
+				A8551A5C22D7B23500FED0B3 /* OfferCell.swift in Sources */,
+				A8551A6322D7B82500FED0B3 /* Day.swift in Sources */,
 				A84846B822D66A1E00BB50C1 /* ToolCell.swift in Sources */,
 				A89AF13722CCC6BD004FA35B /* Invoice.swift in Sources */,
 				A8C9A7CA22CA954800205AA3 /* Example.swift in Sources */,

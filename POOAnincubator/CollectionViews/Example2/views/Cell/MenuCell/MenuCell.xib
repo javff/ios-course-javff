@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MenuCell" id="EoN-ra-j5L" customClass="MenuCell" customModule="POOAnincubator" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="228" height="158"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                <rect key="frame" x="0.0" y="0.0" width="228" height="158"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kWG-jS-EBQ">
+                        <rect key="frame" x="0.0" y="0.0" width="228" height="158"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iLY-44-4cz">
+                                <rect key="frame" x="10" y="68.5" width="208" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.33233676890000002" green="0.38573583989999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="iLY-44-4cz" firstAttribute="centerX" secondItem="kWG-jS-EBQ" secondAttribute="centerX" id="MKS-DG-FFG"/>
+                            <constraint firstAttribute="trailing" secondItem="iLY-44-4cz" secondAttribute="trailing" constant="10" id="Po5-OS-Czd"/>
+                            <constraint firstItem="iLY-44-4cz" firstAttribute="centerY" secondItem="kWG-jS-EBQ" secondAttribute="centerY" id="j39-80-vRd"/>
+                            <constraint firstItem="iLY-44-4cz" firstAttribute="leading" secondItem="kWG-jS-EBQ" secondAttribute="leading" constant="10" id="xpV-Oz-AQ5"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="kWG-jS-EBQ" firstAttribute="top" secondItem="EoN-ra-j5L" secondAttribute="top" id="DgZ-5G-BRv"/>
+                <constraint firstItem="kWG-jS-EBQ" firstAttribute="leading" secondItem="EoN-ra-j5L" secondAttribute="leading" id="gly-6d-oNO"/>
+                <constraint firstAttribute="bottom" secondItem="kWG-jS-EBQ" secondAttribute="bottom" id="hl6-vT-1vE"/>
+                <constraint firstAttribute="trailing" secondItem="kWG-jS-EBQ" secondAttribute="trailing" id="udd-Il-uu7"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="FEb-3F-eeF"/>
+            <size key="customSize" width="228" height="158"/>
+            <connections>
+                <outlet property="menuLabel" destination="iLY-44-4cz" id="DSp-VU-SBh"/>
+            </connections>
+            <point key="canvasLocation" x="168" y="85.457271364317847"/>
+        </collectionViewCell>
+    </objects>
+</document>

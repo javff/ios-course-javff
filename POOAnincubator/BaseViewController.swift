@@ -30,7 +30,6 @@ open class BaseViewController: UIViewController {
     
     
    func setupView(){
-        print("holaaa")
-        self.view.backgroundColor = .red
+        print("setup view in BaseViewController")
     }
 }

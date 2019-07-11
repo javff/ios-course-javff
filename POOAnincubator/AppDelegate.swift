@@ -20,8 +20,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        
         let otherController = BaseViewController()
         otherController.tabBarItem = UITabBarItem(tabBarSystemItem: .downloads, tag: 0)
+        
         let secondController = FirstTableViewController()
         secondController.tabBarItem = UITabBarItem(tabBarSystemItem: .history, tag: 0)
+        
+        let homeViewController = HomeViewController.createController()
+        
+        let menuViewController = MenuViewController()
         
         let tableViewExample2ViewController = InvoicesViewController()
           tableViewExample2ViewController.tabBarItem = UITabBarItem(tabBarSystemItem: .search, tag: 0)
@@ -31,7 +36,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         tabBarController.viewControllers = [
             UINavigationController(rootViewController: otherController),
             secondController,
-            tableViewExample2ViewController
+            tableViewExample2ViewController,
+            UINavigationController(rootViewController: homeViewController),
+            menuViewController
+
         ]
         
         tabBarController.selectedIndex = 1
